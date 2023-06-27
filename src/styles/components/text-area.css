@@ -2,14 +2,14 @@
 
 .text-background{
     font-family: 'Poppins', sans-serif;
-    background-color: black;
+    background: radial-gradient(#070000d5, #000000);
     color: white;
     width: 50vw;
-    height: 90.1vh;
     padding: 2%;
-    border: 0.5vw solid white;
+    border: 0.4vw solid white;
     text-align: justify;
     font-weight: 200;
+    line-height: 130%;
 }
 
 .yellow{
@@ -18,4 +18,12 @@
 
 .bold{
     font-weight: 600;
+}
+
+.lista{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:space-around;
+    margin-top: 3.5vw;
 }
