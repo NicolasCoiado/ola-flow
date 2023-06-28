@@ -1,29 +1,79 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;600;800&display=swap');
 
-.text-background{
-    font-family: 'Poppins', sans-serif;
-    background: radial-gradient(#070000d5, #000000);
-    color: white;
-    width: 50vw;
-    padding: 2%;
-    border: 0.4vw solid white;
-    text-align: justify;
-    font-weight: 200;
-    line-height: 130%;
-}
+@media screen and (min-width: 1000px){
+    .text-background{
+        font-family: 'Poppins', sans-serif;
+        background: radial-gradient(#070000d5, #000000);
+        color: white;
+        width: 50vw;
+        padding: 2% 3%;
+        border: 1.2vh solid white;
+        text-align: justify;
+        font-weight: 200;
+        line-height: 130%;
+    }
 
-.yellow{
-    color: #FFCD44;
-}
+    .yellow{
+        color: #FFCD44;
+    }
 
-.bold{
-    font-weight: 600;
-}
+    .bold{
+        font-weight: 600;
+    }
 
-.lista{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content:space-around;
-    margin-top: 3.5vw;
+    .lista{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content:space-around;
+        margin-top: 5%;
+    }
+    .img-me-mobile{
+        display: none;
+    }
+}
+@media screen and (max-width: 999px){
+    .text-background{
+        font-family: 'Poppins', sans-serif;
+        background: radial-gradient(#070000d5, #000000);
+        color: white;
+        width: 90vw;
+        padding: 1% 5%;
+        text-align: justify;
+        font-weight: 200;
+        line-height: 130%;
+    }
+    h1{
+        font-size: xx-large;
+        text-align: center;
+        line-height: 130%;
+    }
+
+    p{
+        font-size: medium;
+    }
+    .yellow{
+        color: #FFCD44;
+    }
+
+    .bold{
+        font-weight: 600;
+    }
+
+    .lista{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content:space-around;
+        margin-top: 5%;
+    }
+    .img-area-mobile{
+        width: 100%;
+        display: flex;
+        flex-direction:row;
+        justify-content:center;
+    }
+    .img-me-mobile{
+        width: 50vw;
+    }
 }

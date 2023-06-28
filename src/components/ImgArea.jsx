@@ -3,9 +3,9 @@ import '../styles/components/img-area.css'
 
 const ImgArea = () => {
     return (
-        <article className='img-area'>
+        <aside className='img-area'>
             <img src={Me} alt='Fotografia de Nicolas Coiado' className='img-me'/>
-        </article> 
+        </aside> 
      )
 }
  
