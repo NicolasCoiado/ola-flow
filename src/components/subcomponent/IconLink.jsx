@@ -1,9 +1,9 @@
-import { PropTypes } from "prop-types";
+import { PropTypes } from 'prop-types';
 import '../../styles/components/subcomponent/icon-link.css'
 
 const IconLink = ({link, source}) => {
     return ( 
-        <a href={link} className="icone" target="_blank" rel="noreferrer">
+        <a href={link} className='icone' target='_blank' rel='noreferrer'>
             <img src={source}/>
         </a>
     );

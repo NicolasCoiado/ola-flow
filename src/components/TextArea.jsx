@@ -10,7 +10,7 @@ import '../styles/components/text-area.css'
 const TextArea = () => {
 
     return(
-        <main className="text-background">
+        <main className='text-background'>
             <h1>Olá, pessoal dos <span className='yellow'>Estúdios Flow!</span></h1>
             <div className='img-area-mobile'>
                 <img src={Eu} alt='Fotografia de Nicolas Coiado' className='img-me-mobile'/>
