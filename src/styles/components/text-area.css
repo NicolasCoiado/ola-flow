@@ -10,9 +10,14 @@
         border: 1.2vh solid white;
         text-align: justify;
         font-weight: 200;
+        
+    }
+    h1{
+        line-height: 140%;
+    }
+    p{
         line-height: 130%;
     }
-
     .yellow{
         color: #FFCD44;
     }
@@ -46,7 +51,7 @@
     h1{
         font-size: xx-large;
         text-align: center;
-        line-height: 130%;
+        line-height: 140%;
     }
 
     p{
